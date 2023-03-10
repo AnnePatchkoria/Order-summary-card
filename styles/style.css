@@ -1,0 +1,114 @@
+.order{
+    height: 100vh;
+    width: 100vw;
+    background-color: #E0E8FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/pattern-background-desktop.svg); 
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    width:450px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+
+}
+
+.image1{
+    border-radius: 20px 20px 0 0;
+    height:220px;
+    width: 100%;
+}
+.card-content{
+    padding:48px;
+    text-align: center;
+}
+.header{
+    color: #1F2E55;
+    font-size:28px;
+    font-weight: 900;
+    line-height: 37px;
+}
+.paragraph{
+    color: #717FA6;
+    font-weight:500;
+    font-size: 16px;
+    line-height: 26px;
+    margin:17px 0 20px 0px;
+    
+}
+.plan-price{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:11px ;
+    background-color: #F7F9FF;
+    padding: 25px 24px;
+}
+.price-and-desc{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.plan{
+    display:flex;
+}
+
+.description{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21.17px;
+    color: #1F2E55;
+}
+.price{
+    color: #717FA6;
+    font-size: 16px;
+    font-weight:500 ;
+    line-height: 21px;
+}
+.order-plan{
+    color:#382AE1;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: underline;
+}
+.order-plan:hover{
+    color:#766CF1;
+    text-decoration: none;
+}
+
+.payment-button{
+    background-color:#382AE1;
+    border-radius: 11px;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    text-align: center;
+    font-size: 15px;
+    line-height: 19.85px;
+    font-weight: 900;
+    color:#FFFFFF;
+    display:block;
+    text-decoration: none;
+    padding: 15px 102px;
+    margin:32px 0 ;
+}
+.payment-button:hover{
+    background-color:#766CF1;
+    
+}
+.cancel-button{
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 19.85px;
+    color: #717FA6;
+    text-decoration: none;
+}
+.cancel-button:hover{
+    color: #1F2E55;
+}
