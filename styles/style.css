@@ -114,7 +114,28 @@
 /* responsive design for mobile version*/
 @media screen and (max-width: 414px){
     .card{
-        width:350px;
-        height:670px;
+        width:327px;
+        height:620px;
+    }
+    .image1{
+        border-radius: 20px 20px 0 0;
+        height:160px;
+        width: 100%;
+    }
+    .header{
+        font-size:22px;
+        line-height: 29.11px;
+    }
+    .paragraph{
+        font-size: 15px;
+        line-height: 25px;
+        margin:16px 0 24px 0px; 
+    }
+    .card-content{
+        padding:24px;
+    }
+    .payment-button{
+        padding: 15px 64px;
+        margin:24px 0 ;
     }
 }
